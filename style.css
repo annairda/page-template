@@ -1,0 +1,313 @@
+html {
+    background-color: beige;
+}
+
+.flex {
+    display: flex;
+}
+
+.first {
+    text-align: center;
+    justify-content: center;
+}
+
+.text {
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    border: 1.5px solid black;
+}
+
+.no_text {
+    width: 60%;
+    border: 1.5px solid black;
+}
+
+.text2 {
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    border: 1.5px solid black;
+}
+
+.lnr-envelope {
+    color: #0F52BA;
+    font-size: 25px;
+    margin-bottom: 4px;
+}
+
+.second {
+    align-items: center;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.logo-outside {
+    flex-grow: 2;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin-left: 115px;
+}
+
+.input-outside {
+    flex-grow: 6;
+    margin-bottom: 3%;
+}
+
+.input {
+    width: 60%;
+    border: 2px solid black;
+    margin-left: 7%;
+}
+
+.loupe {
+    width: 30px;
+    border: 2px solid black;
+}
+
+.icons {
+    flex-grow: 2;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.icon {
+    width: 20px;
+    height: auto;
+}
+
+.boxes {
+    margin: 15px;
+}
+
+.box {
+    border: 1.5px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+.menu {
+    padding-left: 3%;
+    display: none;
+}
+
+.menu_a {
+    padding-left: 50%;
+}
+
+.second_and_boxes:hover .menu_a {
+    padding-left: 32%;
+}
+
+.second_and_boxes:hover .menu {
+    display: flex;
+}
+
+.input-outside {
+    margin-top: 30px;
+}
+
+.shadow {
+    box-shadow: 10px 10px grey;
+}
+
+.box_d {
+    border: 1px solid black;
+    display: none;
+}
+
+.box:hover .box_d {
+    display: block;
+}
+
+.third {
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.third_h {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider_and_arrows {
+    position: relative;
+}
+
+.slider {
+    margin: 5px;
+    width: 100%;
+    object-fit: scale-down;
+}
+
+.textarea {
+    width: 500px;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    resize: none;
+}
+
+.third_text {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.th_te {
+    border: 2px solid #ccc;
+    width: 45%;
+    height: 100%;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+
+.button {
+    margin-top: 20px;
+    width: 100px;
+    align-items: center;
+}
+
+.third_center {
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrows {
+    width: 4%;
+    position: absolute;
+    z-index: 1;
+    top: 50%
+}
+
+.arrow1 {
+    left: 1%;
+}
+
+.arrow2 {
+    right: 1%;
+}
+
+.fourth {
+    justify-content: space-around;
+    height: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.fourth_1 {
+    width: 30%;
+    background-image: url("https://cdn.pixabay.com/photo/2019/09/08/15/08/owl-4461236_960_720.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.span_category {
+    color: #5CFF5E;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: block;
+}
+
+.fourth_header {
+    color: red;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.p_text {
+    color: #FFF81F;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 8%;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 107%;
+}
+
+.read_more {
+    width: 105px;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+@media (max-width: 600px) {
+
+    .second {
+        margin-top: 0px;
+    }
+
+    .logo {
+        margin-left: 0px;
+    }
+
+    .input {
+        margin-left: 0px;
+        width: 100%
+    }
+
+    .icons {
+        margin-right: 0px;
+        margin-top: 15px;
+    }
+
+    .icon {
+        width: 25px;
+        padding: 5px;
+    }
+
+    .text {
+        width: 20%;
+    }
+
+    .second_and_boxes:hover .menu_a {
+        padding-left: 6px;
+    }
+
+    .second,
+    .third {
+        flex-direction: column;
+    }
+
+    .slider {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .third_center {
+        padding-top: 7px;
+    }
+
+    .textarea {
+        width: 100%;
+        height: 196px;
+    }
+
+    .fourth {
+        flex-wrap: wrap;
+    }
+
+    .fourth_1 {
+        width: 100%;
+        margin: 5px;
+    }
+
+    .p_text {
+        padding-top: 0;
+    }
+}
